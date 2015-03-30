@@ -3,7 +3,7 @@
 
 load('myarraynumbers.js'); 
 var myarray = JSON.parse(MYARRAY_File);       
-
+print(JSON.stringify(myarray);
 function filter(array, test) {
   var passed = []
   for (var i = 0; i < array.length; i++) {           //standard filter code
