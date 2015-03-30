@@ -1,8 +1,8 @@
 // Andrew Ribicki
 // CMP237 Array.js
 
-load('myarray.js'); 
-var myarray = JSON.parse(myarray_File);
+load('myarraynumbers.js'); 
+var myarray = JSON.parse(MYARRAY_File);
 
 function filter(array, test) {
   var passed = []
